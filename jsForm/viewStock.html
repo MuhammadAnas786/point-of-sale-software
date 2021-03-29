@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./styling/viewingStock.css">
+</head>
+
+<style>
+    .index_table {
+        text-transform: uppercase;
+        width: 100%;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+    tr,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+
+<body>
+    <p></p>
+    <div class="container">
+        <div class="sub_container">
+            <div class="field-box">
+                <select class="company" onchange="search3(this)">
+                    <option value='company'>company..</option>
+                </select>
+            </div>
+            <div class="field-box">
+                <label>
+                Item Code
+                 </label>
+                <input type="text" class="SearchStock" placeholder="search">
+            </div>
+        </div>
+        <table class="index_table">
+            <tr>
+                <td>Sr</td>
+                <td>Product Name</td>
+                <td>brand</td>
+                <td>Code</td>
+                <td>Purchase</td>
+                <td>Sale Price</td>
+                <td>description</td>
+                <td>added by</td>
+            </tr>
+        </table>
+
+
+</body>
+<script src="javascript/viweStock.js"></script>
+
+</html>

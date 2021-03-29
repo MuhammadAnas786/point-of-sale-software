@@ -1,0 +1,21 @@
+{
+    "name": "project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "postinstall": "electron-builder install-app-deps",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "^6.1.x",
+        "electron-builder": "^21.2.0",
+        "electron-rebuild": "^1.11.0"
+    },
+    "dependencies": {
+        "knex": "^0.95.4",
+        "sqlite3": "^5.0.2"
+    }
+}

@@ -1,0 +1,116 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styling/index.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <div class="container">
+        <form name="myForm1" class="form">
+            <div class="form_field">
+                <div class="Sub_field">
+                    <label class="lebel_item">Bill No</label>
+                    <input type="number" name="phone" placeholder="" class="forr bill_no">
+                </div>
+                <div class="Sub_field">
+                    <label class="lebel_item"> Date</label>
+                    <input type="date" name="date" placeholder="" class="forr" id="dateme">
+                </div>
+                <div class="Sub_field">
+                    <label class="lebel_item">Customer name</label>
+                    <input type="text" name="customer" placeholder="" class="forr">
+                </div>
+                <div class="Sub_field">
+                    <label class="lebel_item">phone</label>
+                    <input type="number" name="phone" placeholder="" class="forr">
+                </div>
+            </div>
+
+            <div class="form_field2">
+
+                <div class="Sub_field2">
+                    <label class="lebel_item">Item Code</label>
+                    <input type="text" name="code" placeholder="" class="code forr2" id="code">
+                </div><br>
+
+
+                <div class="Sub_field2">
+                    <label class="lebel_item">Qty</label>
+                    <input type="number" name="quantity" placeholder="" class="forr2" id="qty">
+                </div>
+
+
+
+                <div class="Sub_field2">
+                    <label class="lebel_item">Disount per piece</label>
+                    <input type="number" name="D_p" placeholder="" class="forr2" id="discount">
+
+                </div>
+
+
+            </div>
+        </form>
+        <div class="info_table">
+
+            <div class="scrolling" style="width: 83%; overflow: scroll;">
+                <table id="mytable2">
+                    <tr>
+                        <td>SR#</td>
+                        <td>Item code</td>
+                        <td>product Name</td>
+                        <td>Company</td>
+                        <td>QTY</td>
+                        <td>Unit price</td>
+                        <td>Total price</td>
+                        <td></td>
+                    </tr>
+
+                </table>
+                <table id="mytable">
+
+
+                </table>
+            </div>
+        </div>
+        <div style="width: 100%; " class="form2">
+            <form name="form2">
+                <div class="Sub_field2">
+                    <label class="lebel_item">total</label>
+                    <input type="number" name="totalRs" placeholder="" class="forr2">
+                </div>
+                <div class="Sub_field2">
+                    <label class="lebel_item">Discount%</label>
+                    <input type="number" name="discount%" id="disc" placeholder="" class="forr2">
+                </div>
+                <div class="Sub_field2">
+                    <label class="lebel_item">Discount Amount</label>
+                    <input type="number" name="d_amount" id="d_amount" placeholder="" class="forr2">
+                </div>
+
+                <div class="Sub_field2">
+                    <label class="lebel_item">Grand Total</label>
+                    <input type="number" name="grand_total" placeholder="" class="forr2">
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <footer class="footers">
+        <div class="button_container">
+            <div class="button_subcontainer">
+                <div class="buttons save">save</div>
+                <div class="buttons delete">delete</div>
+                <div class="buttons print">print</div>
+            </div>
+        </div>
+    </footer>
+    <script>
+    </script>
+</body>
+<script src="javascript/form.js">
+</script>
+
+</html>

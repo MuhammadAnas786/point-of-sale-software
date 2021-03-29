@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+@font-face {
+    font-family: monster;
+    src: url(../typography/Montserrat/Montserrat-Regular.ttf);
+    /* src: url(/typography/Montserrat/Montserrat-SemiBold.ttf);
+    src: url(/typography/Montserrat/Montserrat-Thin.ttf);
+    src: url(/typography/Montserrat/Montserrat-Black.ttf);*/
+}
+
+@font-face {
+    font-family: monster2;
+    src: url(../typography/Montserrat/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: lato;
+    src: url(../typography/Roboto/Roboto-Medium.ttf);
+}
+
+html {
+    font-size: 16px;
+    font-weight: 300;
+    position: static;
+    font-family: "Monster", sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+    border: 1px solid white;
+    font-family: "monster", sans-serif;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+table tr {
+    height: 3rem;
+}
+
+table tr td {
+    border: 1px solid black;
+    overflow: hidden;
+    text-align: center;
+}
+
+table tr td:first-child {
+    width: 5%;
+}
+
+table tr td:nth-child(2) {
+    width: 20%;
+}
+
+table tr td:nth-child(3) {
+    width: 25%;
+}
+
+table tr td:nth-child(4) {
+    width: 10%;
+}
+
+table tr td:nth-child(5) {
+    width: 10%;
+}
+
+table tr td:nth-child(6) {
+    width: 10%;
+}
+
+table tr td:last-child {
+    width: 10%;
+}
+
+.index_table tr:first-child {
+    background-image: linear-gradient(315deg, white 0%, white 49%, #ff007c 50%, #ff8400 100%);
+    background-size: 200% 200%;
+    color: white;
+}
+
+.field-box {
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub_container {
+    min-width: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.SearchStock {
+    font-size: 1rem;
+    outline: none;
+    padding: 4px;
+    transition: 0.3s;
+    border: 2px solid black;
+}
+
+label {
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.company {
+    padding: 4px;
+    border: 2px solid black;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
